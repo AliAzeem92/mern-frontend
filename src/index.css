@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-icy-aqua-50: #e5fffe;
+  --color-icy-aqua-100: #ccfffd;
+  --color-icy-aqua-200: #99fffc;
+  --color-icy-aqua-300: #66fffa;
+  --color-icy-aqua-400: #33fff8;
+  --color-icy-aqua-500: #00fff7;
+  --color-icy-aqua-600: #00ccc5;
+  --color-icy-aqua-700: #009994;
+  --color-icy-aqua-800: #006663;
+  --color-icy-aqua-900: #003331;
+  --color-icy-aqua-950: #002423;
+
+  --color-soft-cyan-50: #e5fffc;
+  --color-soft-cyan-100: #ccfffa;
+  --color-soft-cyan-200: #99fff5;
+  --color-soft-cyan-300: #66fff0;
+  --color-soft-cyan-400: #33ffeb;
+  --color-soft-cyan-500: #00ffe6;
+  --color-soft-cyan-600: #00ccb8;
+  --color-soft-cyan-700: #00998a;
+  --color-soft-cyan-800: #00665c;
+  --color-soft-cyan-900: #00332e;
+  --color-soft-cyan-950: #002420;
+
+  --color-aquamarine-50: #e5fff4;
+  --color-aquamarine-100: #ccffe8;
+  --color-aquamarine-200: #99ffd1;
+  --color-aquamarine-300: #66ffba;
+  --color-aquamarine-400: #33ffa3;
+  --color-aquamarine-500: #00ff8c;
+  --color-aquamarine-600: #00cc70;
+  --color-aquamarine-700: #009954;
+  --color-aquamarine-800: #006638;
+  --color-aquamarine-900: #00331c;
+  --color-aquamarine-950: #002414;
+
+  --color-ocean-mist-50: #edf7f5;
+  --color-ocean-mist-100: #dcefea;
+  --color-ocean-mist-200: #b8e0d5;
+  --color-ocean-mist-300: #95d0c0;
+  --color-ocean-mist-400: #71c1ac;
+  --color-ocean-mist-500: #4eb197;
+  --color-ocean-mist-600: #3e8e79;
+  --color-ocean-mist-700: #2f6a5a;
+  --color-ocean-mist-800: #1f473c;
+  --color-ocean-mist-900: #10231e;
+  --color-ocean-mist-950: #0b1915;
+
+  --color-blue-slate-50: #f1f2f4;
+  --color-blue-slate-100: #e3e6e8;
+  --color-blue-slate-200: #c7ccd1;
+  --color-blue-slate-300: #abb3ba;
+  --color-blue-slate-400: #8f99a3;
+  --color-blue-slate-500: #73808c;
+  --color-blue-slate-600: #5c6670;
+  --color-blue-slate-700: #454d54;
+  --color-blue-slate-800: #2e3338;
+  --color-blue-slate-900: #171a1c;
+  --color-blue-slate-950: #101214;
+}
+
+body {
+  background-color: var(--color-blue-slate-950);
+  color: var(--color-blue-slate-50);
+  min-height: 100vh;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
